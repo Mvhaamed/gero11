@@ -2,7 +2,7 @@ import asyncio
 import requests
 from AarohiX import app
 from AarohiX.plugins.play.filters import command
-from AarohiX.core.call import Zoro
+from AarohiX.core.call import Dil
 from AarohiX.utils.database import set_loop
 from AarohiX.utils.decorators import AdminRightsCheck
 from datetime import datetime
