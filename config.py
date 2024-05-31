@@ -11,8 +11,6 @@ API_ID = int(getenv("API_ID", "26058816"))
 
 API_HASH = getenv("API_HASH", "495a770d78d37f01d00031b4c1a0a6a4")
 
-BOT_IMAGE = getenv("BOT_IMAGE", "https://telegra.ph/file/5ee75c8b81172a947c9eb.jpg")
-
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 Muntazer = getenv("muntazer", "Mvhmed")
@@ -89,42 +87,23 @@ clean = {}
 
 autoclean = []
 
+
 START_IMG_URL = getenv(
     "START_IMG_URL", "https://telegra.ph/file/5ee75c8b81172a947c9eb.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/8c3e420d79217e4ea23ba.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/5ee75c8b81172a947c9eb.jpg"
 )
-PLAYLIST_IMG_URL = getenv(
-    "PLAYLIST_IMG_URL", "https://telegra.ph/file/5ee75c8b81172a947c9eb.jpg"
-)                          
-STATS_IMG_URL = getenv(
-    "STATS_IMG_URL", "https://te.legra.ph/file/f70081ed82879c1a24068.jpg"
-)                       
-TELEGRAM_AUDIO_URL = getenv(
-    "TELEGRAM_AUDIO_URL", "https://te.legra.ph/file/f70081ed82879c1a24068.jpg"
-)                            
-TELEGRAM_VIDEO_URL = getenv(
-    "TELEGRAM_VIDEO_URL", "https://telegra.ph/file/5ee75c8b81172a947c9eb.jpg"
-)
-STREAM_IMG_URL = getenv(
-    "STREAM_IMG_URL","https://telegra.ph/file/5ee75c8b81172a947c9eb.jpg"
-)
-SOUNCLOUD_IMG_URL = getenv(
-    "SOUNCLOUD_IMG_URL", "https://te.legra.ph/file/f70081ed82879c1a24068.jpg"
-)
-YOUTUBE_IMG_URL = getenv(
-    "YOUTUBE_IMG_URL", "https://telegra.ph/file/5ee75c8b81172a947c9eb.jpg"
-)
-SPOTIFY_ARTIST_IMG_URL = getenv(
-    "SPOTIFY_ARTIST_IMG_URL", "https://te.legra.ph/file/b5c6f785678b0fae35372.jpg"
-)                                
-SPOTIFY_ALBUM_IMG_URL = getenv(
-    "SPOTIFY_ALBUM_IMG_URL", "https://te.legra.ph/file/b5c6f785678b0fae35372.jpg"
-)                               
-SPOTIFY_PLAYLIST_IMG_URL = getenv(
-    "SPOTIFY_PLAYLIST_IMG_URL", "https://te.legra.ph/file/5fdd8da2461c05d893189.jpg"
-)
+PLAYLIST_IMG_URL = "https://telegra.ph/file/5ee75c8b81172a947c9eb.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/5ee75c8b81172a947c9eb.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/5ee75c8b81172a947c9eb.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/5ee75c8b81172a947c9eb.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/5ee75c8b81172a947c9eb.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/5ee75c8b81172a947c9eb.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/5ee75c8b81172a947c9eb.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/5ee75c8b81172a947c9eb.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/5ee75c8b81172a947c9eb.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/5ee75c8b81172a947c9eb.jpg"
 
 
 def time_to_seconds(time):
