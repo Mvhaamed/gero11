@@ -13,10 +13,6 @@ from AarohiX import app
 from random import  choice, randint
 @app.on_message(
     command(["سورس","السورس","‹ سورس ›"])
-    & filters.group
-)
-@app.on_message(
-    command(["سورس","السورس","‹ سورس ›"])
     & filters.channel
 )
 @app.on_message(
