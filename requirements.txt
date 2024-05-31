@@ -37,7 +37,7 @@ spotipy
 telegraph
 tgcrypto
 unidecode
-yt-dlp==2023.12.30
+git+https://github.com/yt-dlp/yt-dlp@master
 youtube-search
 youtube-search-python
 wget
