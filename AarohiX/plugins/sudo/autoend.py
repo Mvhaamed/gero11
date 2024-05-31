@@ -15,7 +15,7 @@ async def auto_end_stream(_, message: Message):
     if state == "enable":
         await autoend_on()
         await message.reply_text(
-            "◍ تم انهاء التشغيل لعـدم وجـود مستخـدمين ❄️√\n\n √"
+            "تم انهاء التشغيل لعدم وجود مستمعين ♥️🌿️√\n\n "
         )
     elif state == "disable":
         await autoend_off()
