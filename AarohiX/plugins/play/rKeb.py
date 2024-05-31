@@ -1,17 +1,10 @@
 import asyncio
 from pyrogram import Client, filters
+from strings import get_string
 from strings.filters import command
-from AarohiX.utils.decorators import AdminActual
-from pyrogram.types import (
-    CallbackQuery,
-    InlineKeyboardButton,
-    InlineKeyboardMarkup,
-    ReplyKeyboardMarkup,
-    ReplyKeyboardRemove,
-    InputMediaPhoto,
-    Message,
-)
-from AarohiX import app
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, ReplyKeyboardMarkup
+from AarohiX import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
+
 
 
 REPLY_MESSAGE = "<b>- اهلا بك عزيزي اليك قائمه الاوامر</b>"
