@@ -13,7 +13,7 @@ from AarohiX.utils.thumbnails import get_thumb
 
 
 @app.on_message(
-    command(["سكب", "تخطي", "التالي", "الي بعدة"]) 
+    command(["سكب", "تخطي", "التالي", "اللي بعده","اللي بعدو"]) 
 )
 @AdminRightsCheck
 async def skip(cli, message: Message, _, chat_id):
