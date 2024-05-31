@@ -9,7 +9,6 @@ from pyrogram.errors import MessageNotModified
 from AarohiX import app
 from config import OWNER_ID, LOGGER_ID, START_IMG_URL
 import config
-Lnk= "https://t.me/" +config.CHANNEL_LINK
 
 @app.on_message(filters.regex(r"^(اوامر الميوزك|ميوزك|الاوامر|الميوزك)$"))
 async def zdatsr(client: Client, message: Message):
@@ -32,9 +31,6 @@ async def zdatsr(client: Client, message: Message):
                 ],[
                     InlineKeyboardButton(
                         "• اوامــر المطــور •", callback_data="zzzdv"),
-                ],[
-                    InlineKeyboardButton(
-                        text=config.CHANNEL_NAME, url=Lnk),
                 ],
             ]
         ),
