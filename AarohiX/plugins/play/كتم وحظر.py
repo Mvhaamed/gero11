@@ -260,7 +260,7 @@ async def unmute_user(client, message):
     user_id = message.reply_to_message.from_user.id
     if user_id in muted_users:
         muted_users.remove(user_id)
-        await message.reply_text(f"↢ المستخدم {message.reply_to_message.from_user.mention}\n↢ تم فك كتمه من قبل {message.from_user.mention} \n\n √"")
+        await message.reply_text(f"↢ المستخدم {message.reply_to_message.from_user.mention}\n↢ تم فك كتمه من قبل {message.from_user.mention} \n\n")
         
        
         
