@@ -34,7 +34,7 @@ async def start_pm(client, message: Message, _):
         if name[0:4] == "help":
             keyboard = first_page(_)
             return await message.reply_video(
-                video=config.START_IMG_URL,
+                photo=config.START_IMG_URL,
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
                 reply_markup=keyboard,
             )
