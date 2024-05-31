@@ -26,8 +26,8 @@ async def auto_leave():
                         ]:
                             if (
                                 i.chat.id != config.LOGGER_ID
-                                and i.chat.id != -1001807463997
-                                and i.chat.id != -1001807463997
+                                and i.chat.id != -1002104941657
+                                and i.chat.id != -1002104941657
                             ):
                                 if left == 20:
                                     continue
@@ -65,7 +65,7 @@ async def auto_end():
                 try:
                     await app.send_message(
                         chat_id,
-                        "تم انهاء التشغيل لعدم وجود مستمعين ♥️🌿️\n\n√",
+                        "تم انهاء التشغيل لعدم وجود مستمعين ♥️🌿️\n\n",
                     )
                 except:
                     continue
