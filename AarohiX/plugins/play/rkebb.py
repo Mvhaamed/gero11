@@ -11,8 +11,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 
 from AarohiX import app
 from random import  choice, randint
-@app.on_message(
-    command(["سورس","السورس","‹ سورس ›"])
+@app.on_message(filters.command(["سورس","السورس","‹ سورس ›"])
     & filters.channel
 )
 @app.on_message(
