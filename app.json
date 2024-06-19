@@ -1,5 +1,5 @@
 {
-    "name": "ميـوزك اكس",
+    "name": "G",
     "description": "- لـ تشغيـل الاغانـي والفيديـو والبثـوث المباشـرة فـي المكالمـات الصوتيـه والمرئيـة عـلى تيليجــرام",
     "logo": "https://telegra.ph/file/57ff6c498b3ce2e978890.jpg",
     "keywords": [
@@ -46,25 +46,25 @@
       },
       "SUPPORT_CHAT": {
         "description": "ضـع معـرف قنـاتك",
-        "value": "https://t.me/zzxxue",
+        "value": "",
         "required": true
         
       },
       "Muntazer": {
         "description": "  ضع قناة الاشتراك الاجباري ⦗ لاتنسى رفع البوت مشرف في القناة ⦘ .",
-        "value": "zzxxue",
+        "value": "",
         "required": true
         
       },
       "BOT_IMAGE": {
         "description": "قـم بـوضع كلـشيه الاشتراك الاجباري ⦗ تلكراف ميديا ⦘",
-        "value": "https://telegra.ph/file/57ff6c498b3ce2e978890.jpg",
+        "value": "",
         "required": false
         
       },
       "START_IMG_URL": {
         "description": "قـم بـوضع كلـشيه الاسـتارت ⦗ تلكراف ميديا ⦘",
-        "value": "https://telegra.ph/file/57ff6c498b3ce2e978890.jpg",
+        "value": "",
         "required": false
         
       },
