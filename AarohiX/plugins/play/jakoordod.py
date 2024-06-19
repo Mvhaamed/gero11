@@ -35,7 +35,7 @@ almortagel_responses = [
     "ها شتبي مليون مره اسمي {name}",
 ]
 
-@app.on_message(filters.command(["بوت", "البوت"], ""), group=39)
+@app.on_message(filters.command(["بوت", "البوت" ،"جورجينا"], ""), group=39)
 async def almortagel_bot(client, message):
     global name
     bot_username = (await app.get_me()).username
