@@ -321,19 +321,7 @@ async def caesar(client: Client, message: Message):
 
         f"{a}")   
 
-ijkhtxt = [
-"صلي على النبي وتبسم ☕️☘️"
-        ]
 
-@app.on_message(filters.command(["."], ""), group=200273)
-
-async def caesar(client: Client, message: Message):
-
-      a = random.choice(ijkhtxt)
-
-      await message.reply(
-
-        f"{a}")   
 
 kghtxt = [
 " رايح فين وسايبني 🥺💔"
