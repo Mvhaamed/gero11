@@ -6,7 +6,6 @@
     "repository": "https://github.com/RRYR7/scalingo-deploy",
     "logo": "https://graph.org/file/9a2e99d95903e6b8f9fb9.jpg",
     "stack": "container",
-    ],
     "env": {
       "API_ID": {
         "description": "اكتـب ايدي ايبي المساعـد مثل ⦗ 26591385 ⦘",
