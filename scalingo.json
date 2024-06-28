@@ -1,15 +1,11 @@
 {
     "name": "G",
     "description": "- لـ تشغيـل الاغانـي والفيديـو والبثـوث المباشـرة فـي المكالمـات الصوتيـه والمرئيـة عـلى تيليجــرام",
-    "logo": "https://telegra.ph/file/57ff6c498b3ce2e978890.jpg",
-    "keywords": [
-    "python3",
-    "telegram",
-    "bot",
-    "VenomX",
-    "MusicBot",
-    "telegram-bot",
-    "pyrogram"
+    "addons": ["scalingo-postgresql"],
+    "keywords": ["tepthon", "userbot","scalingo"],
+    "repository": "https://github.com/RRYR7/scalingo-deploy",
+    "logo": "https://graph.org/file/9a2e99d95903e6b8f9fb9.jpg",
+    "stack": "container",
     ],
     "env": {
       "API_ID": {
@@ -94,17 +90,4 @@
         "value": "https://github.com/feer3oon/FEER3OON-Musicly",
         "required": true
       }
-    },
-    "buildpacks": [
-          {
-              "url": "heroku/python"
-          },
-          {
-              "url": "heroku/nodejs"
-          },
-          {
-              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-          }
-      ],
-      "stack": "container"
 }
