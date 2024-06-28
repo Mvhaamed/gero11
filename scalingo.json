@@ -1,92 +1,46 @@
 {
-    "name": "G",
-    "description": "- لـ تشغيـل الاغانـي والفيديـو والبثـوث المباشـرة فـي المكالمـات الصوتيـه والمرئيـة عـلى تيليجــرام",
+    "name": "سـورس تيبثـون العربي - 𝗦𝗼𝘂𝗿𝗰𝗲 𝗧𝗲𝗽𝘁𝗵𝗼𝗻 𝗔𝗿𝗮𝗯𝗶𝗰",
+    "description": "لـ تنصـيـب سـورس تيبثـون العربـي على سكالينجو مجانًا",
     "addons": ["scalingo-postgresql"],
     "keywords": ["tepthon", "userbot","scalingo"],
-    "repository": "https://github.com/RRYR7/scalingo-deploy",
+    "repository": "https://github.com/Tepthon-Scalingo/Deploy",
     "logo": "https://graph.org/file/9a2e99d95903e6b8f9fb9.jpg",
     "stack": "container",
     "env": {
-      "API_ID": {
-        "description": "اكتـب ايدي ايبي المساعـد مثل ⦗ 26591385 ⦘",
-        "value": "",
-        "required": true
-      },
-      "API_HASH": {
-        "description": "اكتب ايدي هاش المساعـد مثل ⦗ 321a2edfcf7f667acc70472a4d13ca20 ⦘",
-        "value": "",
-        "required": true
-      },
-      "BOT_TOKEN": {
-        "description": "⦗ @Botfather ⦘ ↫ تـــوكـــن الـبـوت",
-        "value": "",
-        "required": true
-      },
-      "MONGO_DB_URI": {
-        "description": "كـود المونجـو",
-        "value": "mongodb+srv://feer3oon:ahmed610@cluster0.r7m4imt.mongodb.net/?retryWrites=true&w=majority",
-        "required": true
-      },
-      "OWNER_ID": {
-        "description": "⦗ ايـــدي المطـــور ⦘ ↫ مطـــور بـــوت الميـــوزك",
-        "value": "6308685423",
-        "required": true
-        
-      },
-      "YOUTUBE_IMG_URL": {
-        "description": "قـم بـوضع كلشيه التشـغيل ⦗ تلكراف ميديا ⦘",
-        "value": "https://telegra.ph/file/57ff6c498b3ce2e978890.jpg",
-        "required": true
-        
-      },
-      "SUPPORT_CHAT": {
-        "description": "ضـع معـرف قنـاتك",
-        "value": "",
-        "required": true
-        
-      },
-      "Muntazer": {
-        "description": "  ضع قناة الاشتراك الاجباري ⦗ لاتنسى رفع البوت مشرف في القناة ⦘ .",
-        "value": "",
-        "required": true
-        
-      },
-      "BOT_IMAGE": {
-        "description": "قـم بـوضع كلـشيه الاشتراك الاجباري ⦗ تلكراف ميديا ⦘",
-        "value": "",
-        "required": false
-        
-      },
-      "START_IMG_URL": {
-        "description": "قـم بـوضع كلـشيه الاسـتارت ⦗ تلكراف ميديا ⦘",
-        "value": "",
-        "required": false
-        
-      },
-      "STRING_SESSION": {
-        "description": "⦗ V1 ⦘ ↫ كـود جلسـة الحسـاب المساعـد لـ الميـوزك",
-        "value": "",
-        "required": true
-     },
-      "HEROKU_API_KEY": {
-        "description": "⦗ https://dashboard.heroku.com/account ⦘ ادخـل كود ايبـي كـي",
-        "value": "",
-        "required": true
-     },
-      "HEROKU_APP_NAME": {
-        "description": "⦗ اســـم التطبيـــق - نفـس اول مربـع بالقائمـة نسـخ لصـق حـروف انكلـش سمــول ⦗ صغيـره فقـط",
-        "value": "",
-        "required": true
-     },
-      "LOGGER_ID": {
-        "description": "ايـدي قروب السـجل",
-        "value": "-100",
-        "required": true
-        
-      },
-      "UPSTREAM_REPO": {
-        "description": "لا تـغيرها ابـدا",
-        "value": "https://github.com/feer3oon/FEER3OON-Musicly",
-        "required": true
-      }
+        "STRING_SESSION": {
+            "description": "كـــود جلســة تيــرمكــس - الكـود الكبيـر مـن حـافظـة حسـابـك أو مـن بــوت〔 FJDBot@ 〕..",
+            "required": true
+            },
+        "ALIVE_NAME": {
+            "description": "ضع اسـم حسابك على تليجـرام",
+            "required": true,
+            "value":""
+        },
+        "TG_BOT_TOKEN": {
+            "description": "توكـن البوت المساعــد - احصـل عليـه من بوت فـاذر @BotFather",
+            "required": true,
+            "value":""
+        },
+        "APP_ID": {
+            "description": "كـود أيبي أيدي〔 App id 〕",
+            "required": true,
+            "value":""
+        },
+        "API_HASH": {
+            "description": "كـود ايبي هـاش〔 Api Hash 〕اتركـه كمـا هــو",
+            "required": true,
+            "value":""
+        },
+        "TZ": {
+            "description": "المنطقـة الزمنيــة لا تغيرهـا",
+            "required": true,
+            "value": "Asia/Baghdad"
+        },
+        "ENV": {
+            "description": "لا تغيــرهـــا",
+            "required": true,
+            "value": "ANYTHING"
+        }
+
+    }
 }
