@@ -1,0 +1,110 @@
+{
+    "name": "G",
+    "description": "- لـ تشغيـل الاغانـي والفيديـو والبثـوث المباشـرة فـي المكالمـات الصوتيـه والمرئيـة عـلى تيليجــرام",
+    "logo": "https://telegra.ph/file/57ff6c498b3ce2e978890.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "VenomX",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "اكتـب ايدي ايبي المساعـد مثل ⦗ 26591385 ⦘",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "اكتب ايدي هاش المساعـد مثل ⦗ 321a2edfcf7f667acc70472a4d13ca20 ⦘",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "⦗ @Botfather ⦘ ↫ تـــوكـــن الـبـوت",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "كـود المونجـو",
+        "value": "mongodb+srv://feer3oon:ahmed610@cluster0.r7m4imt.mongodb.net/?retryWrites=true&w=majority",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "⦗ ايـــدي المطـــور ⦘ ↫ مطـــور بـــوت الميـــوزك",
+        "value": "6308685423",
+        "required": true
+        
+      },
+      "YOUTUBE_IMG_URL": {
+        "description": "قـم بـوضع كلشيه التشـغيل ⦗ تلكراف ميديا ⦘",
+        "value": "https://telegra.ph/file/57ff6c498b3ce2e978890.jpg",
+        "required": true
+        
+      },
+      "SUPPORT_CHAT": {
+        "description": "ضـع معـرف قنـاتك",
+        "value": "",
+        "required": true
+        
+      },
+      "Muntazer": {
+        "description": "  ضع قناة الاشتراك الاجباري ⦗ لاتنسى رفع البوت مشرف في القناة ⦘ .",
+        "value": "",
+        "required": true
+        
+      },
+      "BOT_IMAGE": {
+        "description": "قـم بـوضع كلـشيه الاشتراك الاجباري ⦗ تلكراف ميديا ⦘",
+        "value": "",
+        "required": false
+        
+      },
+      "START_IMG_URL": {
+        "description": "قـم بـوضع كلـشيه الاسـتارت ⦗ تلكراف ميديا ⦘",
+        "value": "",
+        "required": false
+        
+      },
+      "STRING_SESSION": {
+        "description": "⦗ V1 ⦘ ↫ كـود جلسـة الحسـاب المساعـد لـ الميـوزك",
+        "value": "",
+        "required": true
+     },
+      "HEROKU_API_KEY": {
+        "description": "⦗ https://dashboard.heroku.com/account ⦘ ادخـل كود ايبـي كـي",
+        "value": "",
+        "required": true
+     },
+      "HEROKU_APP_NAME": {
+        "description": "⦗ اســـم التطبيـــق - نفـس اول مربـع بالقائمـة نسـخ لصـق حـروف انكلـش سمــول ⦗ صغيـره فقـط",
+        "value": "",
+        "required": true
+     },
+      "LOGGER_ID": {
+        "description": "ايـدي قروب السـجل",
+        "value": "-100",
+        "required": true
+        
+      },
+      "UPSTREAM_REPO": {
+        "description": "لا تـغيرها ابـدا",
+        "value": "https://github.com/feer3oon/FEER3OON-Musicly",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+}
