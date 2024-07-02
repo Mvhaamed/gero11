@@ -2,7 +2,7 @@
 
 cat <<'EOF'
 ---------------------------------------
-Installing Tepthon is in progress..                                                  
+Installing AarohiX is in progress..                                                  
 ---------------------------------------                                                  
 
 
