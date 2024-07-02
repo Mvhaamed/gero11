@@ -1,12 +1,8 @@
-FROM nikolaik/python-nodejs:python3.10-nodejs19
-
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends ffmpeg \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
-
-COPY . /app/
-WORKDIR /app/
-RUN pip3 install --no-cache-dir -U -r requirements.txt
-
-CMD bash start
+FROM python:3.11
+WORKDIR /app
+COPY . /app
+RUN apt-get -qq update && apt-get -qq install -y git wget ffmpeg mediainfo \
+ && apt-get clean \
+ && rm -rf /var/lib/apt/lists/*
+RUN pip install --no-cache-dir -r requirements.txt
+CMD ["python","-m","AarohiX"]
