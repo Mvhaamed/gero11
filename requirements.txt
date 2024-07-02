@@ -6,6 +6,8 @@ beautifulsoup4
 dnspython
 emojis
 Faker
+gunicorn
+flask
 ffmpeg-python
 gitpython
 git+https://github.com/AsmSafone/SafoneAPI
